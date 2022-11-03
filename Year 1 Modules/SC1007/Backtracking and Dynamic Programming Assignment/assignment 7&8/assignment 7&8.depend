@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1650359411 source:d:\coding\ry3nworkspace\sc1007\backtracking and dynamic programming assignment\assignment 7&8\01knapsack.c
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+
+1650455145 source:d:\coding\ry3nworkspace\sc1007\backtracking and dynamic programming assignment\assignment 7&8\colouring.c
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+
