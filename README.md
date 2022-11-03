@@ -1,7 +1,7 @@
 # NTU-SCSE-Survival-Guide
 Hi there, I'm glad you found this repository.
 
-I created this repository because one day I was organizing my hard drive and found a lot of code and assignments from my freshman year. I thought it would be a good idea to share it with the world. I hope this repository will help you in your journey in NTU SCSE. Spread the word and share this repository with your friends.
+I created this repository because one day I was organizing my hard drive and found a lot of code and assignments from my freshman year. I thought it would be a good idea to share it with juniors. I hope this repository will help you in your journey in NTU SCSE. Spread the word and share this repository with your friends.
 
 :sparkles:Please feel free to contribute to this repository and make it better. If you have any questions, feel free to open an issue:sparkles:
 
