@@ -17,8 +17,8 @@ I created this repository because one day I was organizing my hard drive and fou
 
 ## Directory Structure :file_folder:
 * Year 1 Modules
-* [SC1003](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/63125223ba3fbce1692d6bb430d10afd18555996/Year1/SC1003) - Introduction to Computational Thinking & Programming 
-* [SC1007](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/63125223ba3fbce1692d6bb430d10afd18555996/Year1/SC1007) - Data Structures & Algorithms 
+  * [SC1003](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/63125223ba3fbce1692d6bb430d10afd18555996/Year1/SC1003) - Introduction to Computational Thinking & Programming 
+  * [SC1007](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/63125223ba3fbce1692d6bb430d10afd18555996/Year1/SC1007) - Data Structures & Algorithms 
 
 ## What you won't find in this repository :heavy_minus_sign:
 Your exam answers, obviously. :sweat_smile:
