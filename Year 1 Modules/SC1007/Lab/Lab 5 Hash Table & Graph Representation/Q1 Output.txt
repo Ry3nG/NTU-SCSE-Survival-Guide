@@ -1,0 +1,38 @@
+============= Hash Table ============
+|1. Create a hash table             |
+|2. Insert a key to the hash table  |
+|3. Search a key in the hash table  |
+|4. Print the hash table            |
+|5. Quit                            |
+=====================================
+Enter selection: Enter number of data to be inserted:
+HashTable is created.
+Enter selection: Enter a key to be inserted:
+1 is inserted.
+Enter selection: Enter a key to be inserted:
+2 is inserted.
+Enter selection: Enter a key to be inserted:
+3 is inserted.
+Enter selection: Enter a key to be inserted:
+4 is inserted.
+Enter selection: Enter a key to be inserted:
+5 is inserted.
+Enter selection: Enter a key to be inserted:
+6 is inserted.
+Enter selection: Enter a key to be inserted:
+7 is inserted.
+Enter selection: Enter a key to be inserted:
+8 is inserted.
+Enter selection: Enter a key to be inserted:
+9 is inserted.
+Enter selection: Enter a key for searching in the HashTable:
+9 is found.
+Enter selection: Enter a key for searching in the HashTable:
+10 is not found.
+Enter selection: Enter a key to be deleted:
+11 is not existing.
+Enter selection: 
+0:  9 -> 6 -> 3 -> 
+1:  7 -> 4 -> 1 -> 
+2:  8 -> 5 -> 2 -> 
+Enter selection: 
