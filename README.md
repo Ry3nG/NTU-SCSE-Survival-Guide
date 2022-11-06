@@ -20,6 +20,8 @@ I created this repository because one day I was organizing my hard drive and fou
   * [SC1003](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/63125223ba3fbce1692d6bb430d10afd18555996/Year1/SC1003) - Introduction to Computational Thinking & Programming 
   * [SC1007](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/63125223ba3fbce1692d6bb430d10afd18555996/Year1/SC1007) - Data Structures & Algorithms 
   * [SC1015](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/e838eea947de3046945bb1c5bfa82d6b12342de5/Year1/SC1015) - Data Science and Artificial Intelligence
+* Year 2 Modules
+  * [SC2002](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/1c191aafbaf08b72edd439501faf1cfb49756c34/Year2/SC2002) - Object Oriented Design & Programming
 
 ## What you won't find in this repository :heavy_minus_sign:
 Your exam answers, obviously. :sweat_smile:
