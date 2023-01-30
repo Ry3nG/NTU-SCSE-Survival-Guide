@@ -22,6 +22,9 @@ I created this repository because one day I was organizing my hard drive and fou
   * [SC1015](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/e838eea947de3046945bb1c5bfa82d6b12342de5/Year1/SC1015) - Data Science and Artificial Intelligence
 * Year 2 Modules
   * [SC2002](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/1c191aafbaf08b72edd439501faf1cfb49756c34/Year2/SC2002) - Object Oriented Design & Programming
+  * [SC2001](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/main/Year2/SC2001) - Algorithms Design & Analysis
+  * [SC2104](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/main/Year2/SC2104) - Sensors, Interfacing & Digital Control
+  * [SC2107](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/main/Year2/SC2107) - Microprocessor System Design and Development
 
 ## What you won't find in this repository :heavy_minus_sign:
 Your exam answers, obviously. :sweat_smile:
