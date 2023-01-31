@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lab2_ReflectanceGPIO/Lab06_GPIOmain.c&apos; to &apos;Lab2_GPIOmain.c&apos;" description="Rename resource &apos;Lab06_GPIOmain.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Lab06_GPIOmain.c" name="Lab2_GPIOmain.c" stamp="1562055881956" updateReferences="true"/>
+</session>

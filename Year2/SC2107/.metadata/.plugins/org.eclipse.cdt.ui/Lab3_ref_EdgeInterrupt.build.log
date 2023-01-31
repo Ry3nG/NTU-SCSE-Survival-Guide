@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Lab3_ref_EdgeInterrupt ****
+
+"C:\\ti\\ccs740\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Lab3_ref_EdgeInterrupt.out' is up to date.
+
+**** Build Finished ****

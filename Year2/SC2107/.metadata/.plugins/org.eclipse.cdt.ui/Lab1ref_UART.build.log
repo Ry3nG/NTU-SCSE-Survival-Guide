@@ -1,0 +1,15 @@
+
+**** Clean-only build of configuration Debug for project Lab1ref_UART ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "Lab1_ref_UART.hex"  "Lab1_ref_UART.out" 
+DEL /F "Clock.obj" "UART0.obj" "UARTtestmain.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+DEL /F "Clock.d" "UART0.d" "UARTtestmain.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Lab1ref_UART\Debug\Lab1_ref_UART.hex
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Lab1ref_UART\Debug\Clock.obj
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Lab1ref_UART\Debug\Clock.d
+'Finished clean'
+ 
+
+**** Build Finished ****

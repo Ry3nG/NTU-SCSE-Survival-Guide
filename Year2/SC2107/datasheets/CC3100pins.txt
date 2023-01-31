@@ -1,0 +1,24 @@
+/* CC3100 booster pack connections (unused pins can be used by user application)
+Pin  Signal        Direction      Pin   Signal     Direction
+P1.1  3.3 VCC         IN          P2.1  Gnd   GND      IN
+P1.2  PB5 UNUSED      NA          P2.2  PB2   IRQ      OUT
+P1.3  PB0 UART1_TX    OUT         P2.3  PE0   SSI2_CS  IN
+P1.4  PB1 UART1_RX    IN          P2.4  PF0   UNUSED   NA
+P1.5  PE4 nHIB        IN          P2.5  Reset nRESET   IN
+P1.6  PE5 UNUSED      NA          P2.6  PB7  SSI2_MOSI IN
+P1.7  PB4 SSI2_CLK    IN          P2.7  PB6  SSI2_MISO OUT
+P1.8  PA5 UNUSED      NA          P2.8  PA4   UNUSED   NA
+P1.9  PA6 UNUSED      NA          P2.9  PA3   UNUSED   NA
+P1.10 PA7 UNUSED      NA          P2.10 PA2   UNUSED   NA
+
+Pin  Signal        Direction      Pin   Signal      Direction
+P3.1  +5  +5 V       IN           P4.1  PF2 UNUSED      OUT
+P3.2  Gnd GND        IN           P4.2  PF3 UNUSED      OUT
+P3.3  PD0 UNUSED     NA           P4.3  PB3 UNUSED      NA
+P3.4  PD1 UNUSED     NA           P4.4  PC4 UART1_CTS   IN
+P3.5  PD2 UNUSED     NA           P4.5  PC5 UART1_RTS   OUT
+P3.6  PD3 UNUSED     NA           P4.6  PC6 UNUSED      NA
+P3.7  PE1 UNUSED     NA           P4.7  PC7 NWP_LOG_TX  OUT
+P3.8  PE2 UNUSED     NA           P4.8  PD6 WLAN_LOG_TX OUT
+P3.9  PE3 UNUSED     NA           P4.9  PD7 UNUSED      IN (see R74)
+P3.10 PF1 UNUSED     NA           P4.10 PF4 UNUSED      OUT(see R75)

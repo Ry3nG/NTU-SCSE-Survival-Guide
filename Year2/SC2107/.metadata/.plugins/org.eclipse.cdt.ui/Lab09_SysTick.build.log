@@ -1,0 +1,29 @@
+
+**** Build of configuration Debug for project Lab09_SysTick ****
+
+"C:\\ti\\ccs740\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "C:/Users/hloh/Documents/Course Content/CE2007/new syllabus/RSLK-labs/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/LaunchPad.c"'
+'Invoking: MSP432 Compiler'
+"C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs740/ccsv7/ccs_base/arm/include" --include_path="C:/ti/ccs740/ccsv7/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="LaunchPad.d_raw"  "C:/Users/hloh/Documents/Course Content/CE2007/new syllabus/RSLK-labs/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/LaunchPad.c"
+'Finished building: "C:/Users/hloh/Documents/Course Content/CE2007/new syllabus/RSLK-labs/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/LaunchPad.c"'
+ 
+'Building target: "Lab09_SysTick.out"'
+'Invoking: MSP432 Linker'
+"C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab09_SysTick.map" --heap_size=1024 --stack_size=512 -i"C:/ti/ccs740/ccsv7/ccs_base/arm/include" -i"C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/lib" -i"C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab09_SysTick_linkInfo.xml" --rom_model -o "Lab09_SysTick.out" "./Clock.obj" "./CortexM.obj" "./Lab09_SysTickmain.obj" "./LaunchPad.obj" "./SysTick.obj" "./TExaS.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: "Lab09_SysTick.out"'
+ 
+
+**** Build Finished ****

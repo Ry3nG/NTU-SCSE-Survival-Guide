@@ -1,0 +1,77 @@
+15:12:31 **** Incremental Build of configuration Debug for project Lab3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -u _printf_float -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:19: warning: implicit declaration of function 'IMU_Initialise' [-Wimplicit-function-declaration]
+   99 |  uint8_t status = IMU_Initialise(&imu, &hi2c1, &huart3);
+      |                   ^~~~~~~~~~~~~~
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'IMU_AccelRead' [-Wimplicit-function-declaration]
+  109 |   IMU_AccelRead(&imu);
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.c:110:3: warning: implicit declaration of function 'IMU_GyroRead'; did you mean 'IMU_TempRead'? [-Wimplicit-function-declaration]
+  110 |   IMU_GyroRead(&imu);
+      |   ^~~~~~~~~~~~
+      |   IMU_TempRead
+../Core/Src/main.c:113:19: warning: implicit declaration of function 'atan' [-Wimplicit-function-declaration]
+  113 |   pitch_acc = 180*atan(imu.acc[1]/imu.acc[2])/3.14;
+      |                   ^~~~
+../Core/Src/main.c:113:19: warning: incompatible implicit declaration of built-in function 'atan'
+../Core/Src/main.c:25:1: note: include '<math.h>' or provide a declaration of 'atan'
+   24 | #include "ICM20948.h"
+  +++ |+#include <math.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:129:3: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  129 |   sprintf(&sbuf[0], "%5.2f ,", pitch_acc);
+      |   ^~~~~~~
+../Core/Src/main.c:129:3: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include "ICM20948.h"
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:129:11: warning: passing argument 1 of 'sprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+  129 |   sprintf(&sbuf[0], "%5.2f ,", pitch_acc);
+      |           ^~~~~~~~
+      |           |
+      |           uint8_t (*)[7] {aka unsigned char (*)[7]}
+../Core/Src/main.c:129:11: note: expected 'char *' but argument is of type 'uint8_t (*)[7]' {aka 'unsigned char (*)[7]'}
+../Core/Src/main.c:141:11: warning: passing argument 1 of 'sprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+  141 |   sprintf(&sbuf[2], "%5.2f ,", pitch_gyro);
+      |           ^~~~~~~~
+      |           |
+      |           uint8_t (*)[7] {aka unsigned char (*)[7]}
+../Core/Src/main.c:141:11: note: expected 'char *' but argument is of type 'uint8_t (*)[7]' {aka 'unsigned char (*)[7]'}
+../Core/Src/main.c:149:11: warning: passing argument 1 of 'sprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+  149 |   sprintf(&sbuf[4], "%5.2f ,", pitch_fusion);
+      |           ^~~~~~~~
+      |           |
+      |           uint8_t (*)[7] {aka unsigned char (*)[7]}
+../Core/Src/main.c:149:11: note: expected 'char *' but argument is of type 'uint8_t (*)[7]' {aka 'unsigned char (*)[7]'}
+../Core/Src/main.c:154:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  154 |   HAL_UART_Transmit(&huart3, "\n\r", 2, HAL_MAX_DELAY);
+      |                              ^~~~~~
+      |                              |
+      |                              char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:407,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:722:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  722 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:99:10: warning: unused variable 'status' [-Wunused-variable]
+   99 |  uint8_t status = IMU_Initialise(&imu, &hi2c1, &huart3);
+      |          ^~~~~~
+arm-none-eabi-gcc -o "Lab3.elf" @"objects.list"   -mcpu=cortex-m4 -T"F:\SC2104\Lab3\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab3.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab3.elf
+ 
+arm-none-eabi-size   Lab3.elf 
+arm-none-eabi-objdump -h -S  Lab3.elf  > "Lab3.list"
+   text	   data	    bss	    dec	    hex	filename
+  32108	    484	   1764	  34356	   8634	Lab3.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab3.list
+ 
+
+15:12:32 Build Finished. 0 errors, 12 warnings. (took 1s.53ms)
+

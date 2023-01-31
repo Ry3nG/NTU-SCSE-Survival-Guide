@@ -1,0 +1,15 @@
+
+**** Clean-only build of configuration Debug for project RSLKSelfTest ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "RSLKSelfTest.hex"  "RSLKSelfTest.out" 
+DEL /F "ADC14.obj" "BumpInt.obj" "Clock.obj" "CortexM.obj" "EUSCIA0.obj" "FIFO0.obj" "IRDistance.obj" "LPF.obj" "LaunchPad.obj" "Motor.obj" "PWM.obj" "RSLKSelfTest_UARTmain.obj" "Reflectance.obj" "SysTickInts.obj" "TA3InputCapture.obj" "TimerA1.obj" "UART0.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+DEL /F "ADC14.d" "BumpInt.d" "Clock.d" "CortexM.d" "EUSCIA0.d" "FIFO0.d" "IRDistance.d" "LPF.d" "LaunchPad.d" "Motor.d" "PWM.d" "RSLKSelfTest_UARTmain.d" "Reflectance.d" "SysTickInts.d" "TA3InputCapture.d" "TimerA1.d" "UART0.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+Could Not Find C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\RSLKSelfTest.hex
+Could Not Find C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\ADC14.obj
+Could Not Find C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\RSLKSelfTest\Debug\ADC14.d
+'Finished clean'
+ 
+
+**** Build Finished ****

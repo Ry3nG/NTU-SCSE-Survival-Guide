@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lab3_Bump_Reflectance_Systick/Lab10_Debugmain.c&apos; to &apos;Lab3_Sensorsmain.c&apos;" description="Rename resource &apos;Lab10_Debugmain.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Lab10_Debugmain.c" name="Lab3_Sensorsmain.c" stamp="1562125615971" updateReferences="true"/>
+</session>

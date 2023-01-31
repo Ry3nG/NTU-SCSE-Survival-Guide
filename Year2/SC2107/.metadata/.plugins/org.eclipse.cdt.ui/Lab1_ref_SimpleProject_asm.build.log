@@ -1,0 +1,32 @@
+
+**** Build of configuration Debug for project Lab1_ref_SimpleProject_asm ****
+
+"C:\\ti\\ccs740\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+'Building file: "../main.asm"'
+'Invoking: MSP432 Compiler'
+"C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs740/ccsv7/ccs_base/arm/include" --include_path="C:/ti/ccs740/ccsv7/ccs_base/arm/include/CMSIS" --include_path="C:/temp/CE2007/Lab1_ref_SimpleProject_asm" --include_path="C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+'Finished building: "../main.asm"'
+ 
+'Building file: "../startup_msp432p401r_ccs.c"'
+'Invoking: MSP432 Compiler'
+"C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs740/ccsv7/ccs_base/arm/include" --include_path="C:/ti/ccs740/ccsv7/ccs_base/arm/include/CMSIS" --include_path="C:/temp/CE2007/Lab1_ref_SimpleProject_asm" --include_path="C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="startup_msp432p401r_ccs.d_raw"  "../startup_msp432p401r_ccs.c"
+'Finished building: "../startup_msp432p401r_ccs.c"'
+ 
+'Building file: "../system_msp432p401r.c"'
+'Invoking: MSP432 Compiler'
+"C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs740/ccsv7/ccs_base/arm/include" --include_path="C:/ti/ccs740/ccsv7/ccs_base/arm/include/CMSIS" --include_path="C:/temp/CE2007/Lab1_ref_SimpleProject_asm" --include_path="C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="system_msp432p401r.d_raw"  "../system_msp432p401r.c"
+"../system_msp432p401r.c", line 112: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../system_msp432p401r.c", line 160: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../system_msp432p401r.c", line 193: remark #2623-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+'Finished building: "../system_msp432p401r.c"'
+ 
+'Building target: "Lab1_ref_SimpleProject_asm.out"'
+'Invoking: MSP432 Linker'
+"C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1_ref_SimpleProject_asm.map" --heap_size=1024 --stack_size=512 -i"C:/ti/ccs740/ccsv7/ccs_base/arm/include" -i"C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/lib" -i"C:/ti/ccs740/ccsv7/tools/compiler/ti-cgt-arm_16.9.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_ref_SimpleProject_asm_linkInfo.xml" --rom_model -o "Lab1_ref_SimpleProject_asm.out" "./main.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+'Finished building target: "Lab1_ref_SimpleProject_asm.out"'
+ 
+
+**** Build Finished ****

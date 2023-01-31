@@ -1,0 +1,1 @@
+"./ADC14.obj" "./Clock.obj" "./CortexM.obj" "./IRDistance.obj" "./LPF.obj" "./Lab4_ADCmain.obj" "./LaunchPad.obj" "./TimerA1.obj" "./UART0.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd" -llibc.a 

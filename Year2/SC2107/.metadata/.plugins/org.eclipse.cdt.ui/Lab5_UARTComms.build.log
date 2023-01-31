@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Lab5_UARTComms ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab5_UARTComms.out' is up to date.
+
+**** Build Finished ****

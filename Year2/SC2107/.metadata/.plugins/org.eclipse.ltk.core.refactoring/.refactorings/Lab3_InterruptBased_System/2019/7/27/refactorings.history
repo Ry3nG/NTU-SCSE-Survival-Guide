@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lab3_InterruptBased_System/Lab14_EdgeInterruptsmain.c&apos; to &apos;Lab3_EdgeInterruptsmain.c&apos;" description="Rename resource &apos;Lab14_EdgeInterruptsmain.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Lab14_EdgeInterruptsmain.c" name="Lab3_EdgeInterruptsmain.c" stamp="1562146472103" updateReferences="true"/>
+</session>

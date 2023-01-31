@@ -1,0 +1,15 @@
+
+**** Clean-only build of configuration Debug for project Switch ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "Switch.hex"  "Switch.out" 
+DEL /F "LaunchPad.obj" "Switch.obj" "Switchmain.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+DEL /F "LaunchPad.d" "Switch.d" "Switchmain.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Switch\Debug\Switch.hex
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Switch\Debug\LaunchPad.obj
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Switch\Debug\LaunchPad.d
+'Finished clean'
+ 
+
+**** Build Finished ****

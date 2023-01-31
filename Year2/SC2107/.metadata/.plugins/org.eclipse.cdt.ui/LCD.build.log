@@ -1,0 +1,15 @@
+
+**** Clean-only build of configuration Debug for project LCD ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "LCD.hex"  "LCD.out" 
+DEL /F "Clock.obj" "Lab11_LCDmain.obj" "Nokia5110.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+DEL /F "Clock.d" "Lab11_LCDmain.d" "Nokia5110.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\LCD\Debug\LCD.hex
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\LCD\Debug\Clock.obj
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\LCD\Debug\Clock.d
+'Finished clean'
+ 
+
+**** Build Finished ****

@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project SimpleProject_asm ****
+
+"C:\\ti\\ccs740\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'SimpleProject_asm.out' is up to date.
+
+**** Build Finished ****

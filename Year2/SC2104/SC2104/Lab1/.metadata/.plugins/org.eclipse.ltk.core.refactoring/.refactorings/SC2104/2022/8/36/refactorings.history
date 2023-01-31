@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SC2104/Core/Src/oled_SC2104&apos; to &apos;oled_SC2104.c&apos;" description="Rename resource &apos;oled_SC2104&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/oled_SC2104" name="oled_SC2104.c" stamp="1661928859054" updateReferences="true"/>
+</session>

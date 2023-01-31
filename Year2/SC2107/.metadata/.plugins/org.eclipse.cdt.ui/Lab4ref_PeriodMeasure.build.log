@@ -1,0 +1,15 @@
+
+**** Clean-only build of configuration Debug for project Lab4ref_PeriodMeasure ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "Lab4ref_PeriodMeasure.hex"  "Lab4ref_PeriodMeasure.out" 
+DEL /F "Clock.obj" "CortexM.obj" "PeriodMeasure.obj" "TA0InputCapture.obj" "TimerA1.obj" "UART0.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+DEL /F "Clock.d" "CortexM.d" "PeriodMeasure.d" "TA0InputCapture.d" "TimerA1.d" "UART0.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Lab4ref_PeriodMeasure\Debug\Lab4ref_PeriodMeasure.hex
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Lab4ref_PeriodMeasure\Debug\Clock.obj
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Lab4ref_PeriodMeasure\Debug\Clock.d
+'Finished clean'
+ 
+
+**** Build Finished ****
