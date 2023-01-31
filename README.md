@@ -14,6 +14,7 @@ I created this repository because one day I was organizing my hard drive and fou
 - [x] :books: Study notes
 - [x] :page_with_curl: Lab assignments
 - [x] :computer: Project assignments 
+- [x] :pencil: [Past year exam papers](https://entuedu-my.sharepoint.com/personal/scse-academics_e_ntu_edu_sg/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fscse%2Dacademics%5Fe%5Fntu%5Fedu%5Fsg%2FDocuments%2FSCSE%20Past%20Year%20Papers&ga=1)
 
 ## Directory Structure :file_folder:
 * Year 1 Modules
@@ -25,6 +26,7 @@ I created this repository because one day I was organizing my hard drive and fou
   * [SC2001](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/main/Year2/SC2001) - Algorithms Design & Analysis
   * [SC2104](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/main/Year2/SC2104) - Sensors, Interfacing & Digital Control
   * [SC2107](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/main/Year2/SC2107) - Microprocessor System Design and Development
+  * [SC2103](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/SC2103/Year2/SC2103) - Digital System Design
 
 ## What you won't find in this repository :heavy_minus_sign:
 Your exam answers, obviously. :sweat_smile:
