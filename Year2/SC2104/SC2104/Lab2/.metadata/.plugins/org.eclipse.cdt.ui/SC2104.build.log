@@ -1,0 +1,10 @@
+14:24:32 **** Incremental Build of configuration Debug for project SC2104 ****
+make -j16 all 
+arm-none-eabi-size   SC2104.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12140	     20	   2660	  14820	   39e4	SC2104.elf
+Finished building: default.size.stdout
+ 
+
+14:24:32 Build Finished. 0 errors, 0 warnings. (took 236ms)
+

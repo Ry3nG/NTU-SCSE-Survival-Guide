@@ -1,0 +1,1 @@
+"./Clock.obj" "./Lab2-FSMmain-11states.obj" "./LaunchPad.obj" "./Reflectance.obj" "./TExaS.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd" -llibc.a 

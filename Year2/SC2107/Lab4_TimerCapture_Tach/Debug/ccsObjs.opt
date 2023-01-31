@@ -1,0 +1,1 @@
+"./Bump.obj" "./Clock.obj" "./CortexM.obj" "./Lab4_Tachmain.obj" "./LaunchPad.obj" "./Motor.obj" "./PWM.obj" "./SysTick.obj" "./TA3InputCapture.obj" "./TExaS.obj" "./UART0.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd" -llibc.a 

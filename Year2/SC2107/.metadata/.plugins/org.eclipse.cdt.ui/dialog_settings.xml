@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
+		<item value="180" key="size.height"/>
+		<item value="958" key="size.width"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+		<item value="false" key="caseSensitive"/>
+		<item value="227191" key="searchFlags"/>
+		<list key="previousPatterns">
+			<item value="struct"/>
+			<item value="Lab?18"/>
+			<item value="FIR"/>
+			<item value="CollisionFlag"/>
+			<item value="CollisionData"/>
+			<item value="Port5_Init"/>
+		</list>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+</section>

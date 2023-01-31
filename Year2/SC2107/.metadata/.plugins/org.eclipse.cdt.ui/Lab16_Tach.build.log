@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Lab16_Tach ****
+
+"C:\\ti\\ccs740\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Lab16_Tach.out' is up to date.
+
+**** Build Finished ****

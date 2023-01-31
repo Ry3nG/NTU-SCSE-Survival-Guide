@@ -1,0 +1,15 @@
+
+**** Clean-only build of configuration Debug for project PointerTrafficLight ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "PointerTrafficLight.hex"  "PointerTrafficLight.out" 
+DEL /F "Clock.obj" "PointerTrafficLightmain.obj" "TExaS.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+DEL /F "Clock.d" "PointerTrafficLightmain.d" "TExaS.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\PointerTrafficLight\Debug\PointerTrafficLight.hex
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\PointerTrafficLight\Debug\Clock.obj
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\PointerTrafficLight\Debug\Clock.d
+'Finished clean'
+ 
+
+**** Build Finished ****

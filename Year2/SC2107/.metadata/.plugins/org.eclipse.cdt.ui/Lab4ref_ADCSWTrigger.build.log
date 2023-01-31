@@ -1,0 +1,15 @@
+
+**** Clean-only build of configuration Debug for project Lab4ref_ADCSWTrigger ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "Lab4ref_ADCSWTrigger.hex"  "Lab4ref_ADCSWTrigger.out" 
+DEL /F "ADC14.obj" "ADCSWTriggermain.obj" "Clock.obj" "CortexM.obj" "LaunchPad.obj" "SysTickInts.obj" "UART0.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+DEL /F "ADC14.d" "ADCSWTriggermain.d" "Clock.d" "CortexM.d" "LaunchPad.d" "SysTickInts.d" "UART0.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Lab4ref_ADCSWTrigger\Debug\Lab4ref_ADCSWTrigger.hex
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Lab4ref_ADCSWTrigger\Debug\ADC14.obj
+Could Not Find C:\CE2007\CE2007Labs-Instructor-17072019\CE2007\Lab4ref_ADCSWTrigger\Debug\ADC14.d
+'Finished clean'
+ 
+
+**** Build Finished ****

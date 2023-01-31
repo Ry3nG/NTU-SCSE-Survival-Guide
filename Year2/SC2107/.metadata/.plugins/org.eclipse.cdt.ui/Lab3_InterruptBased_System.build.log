@@ -1,0 +1,15 @@
+
+**** Clean-only build of configuration Debug for project Lab3_InterruptBased_System ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "Lab3_InterruptBased_System.hex"  "Lab3_InterruptBased_System.out" 
+DEL /F "BumpInt.obj" "Clock.obj" "CortexM.obj" "FlashProgram.obj" "Lab3_EdgeInterruptsmain.obj" "LaunchPad.obj" "Motor.obj" "PWM.obj" "Reflectance.obj" "SysTickInts.obj" "TExaS.obj" "TimerA1.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" 
+DEL /F "BumpInt.d" "Clock.d" "CortexM.d" "FlashProgram.d" "Lab3_EdgeInterruptsmain.d" "LaunchPad.d" "Motor.d" "PWM.d" "Reflectance.d" "SysTickInts.d" "TExaS.d" "TimerA1.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" 
+Could Not Find C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\Lab3_InterruptBased_System\Debug\Lab3_InterruptBased_System.hex
+Could Not Find C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\Lab3_InterruptBased_System\Debug\BumpInt.obj
+Could Not Find C:\CE2007\RSLK-Max-CE2007Labs-Instructor-23112021\CE2007\Lab3_InterruptBased_System\Debug\BumpInt.d
+'Finished clean'
+ 
+
+**** Build Finished ****

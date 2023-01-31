@@ -1,0 +1,5 @@
+MODULES_MRU_PATH=C\:\\CE2007\\CE2007Labs-Instructor-17072019\\CE2007\\RSLKSelfTest.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+MODULES_MRU_PATH.1=C\:\\temp\\CE2007\\RSLKSelfTest.out\#THREAD_IDS\#Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0
+eclipse.preferences.version=1
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>Texas\ Instruments\ XDS110\ USB\ Debug\ Probe\\CORTEX_M4_0=0xdc,0x2e4,0x20000000,0x22000000,0x20008000,0x40e,0x408,0x40e0e,PC+0x2a8,0x20000030,PC,PC+0x2e4
+useAnnotationsPrefPage=true

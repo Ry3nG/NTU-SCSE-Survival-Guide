@@ -1,0 +1,31 @@
+15:53:28 **** Incremental Build of configuration Debug for project SC2104 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/oled_SC2104.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/oled_SC2104.d" -MT"Core/Src/oled_SC2104.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/oled_SC2104.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:25: warning: pointer targets in passing argument 3 of 'OLED_ShowString' differ in signedness [-Wpointer-sign]
+   99 |   OLED_ShowString(0, 5, "Hello World"); //display message on OLED display at line 5
+      |                         ^~~~~~~~~~~~~
+      |                         |
+      |                         char *
+In file included from ../Core/Src/main.c:21:
+../Core/Inc/oled.h:49:57: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+   49 | void OLED_ShowString(uint8_t x,uint8_t y,const uint8_t *p);
+      |                                          ~~~~~~~~~~~~~~~^
+../Core/Src/main.c:105:12: warning: pointer targets in assignment from 'char *' to 'uint8_t *' {aka 'unsigned char *'} differ in signedness [-Wpointer-sign]
+  105 |   oled_buf = "STM32 Board"; // another way to display message through buffer
+      |            ^
+arm-none-eabi-gcc -o "SC2104.elf" @"objects.list"   -mcpu=cortex-m4 -T"F:\SC2104\Lab1\SC2104\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SC2104.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SC2104.elf
+ 
+arm-none-eabi-size   SC2104.elf 
+arm-none-eabi-objdump -h -S  SC2104.elf  > "SC2104.list"
+   text	   data	    bss	    dec	    hex	filename
+  12212	     20	   2660	  14892	   3a2c	SC2104.elf
+Finished building: default.size.stdout
+ 
+Finished building: SC2104.list
+ 
+
+15:53:28 Build Finished. 0 errors, 2 warnings. (took 907ms)
+

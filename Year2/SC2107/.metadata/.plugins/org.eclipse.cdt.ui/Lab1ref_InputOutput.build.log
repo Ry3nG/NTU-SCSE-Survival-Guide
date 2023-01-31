@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Lab1ref_InputOutput ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab1ref_InputOutput.out' is up to date.
+
+**** Build Finished ****
