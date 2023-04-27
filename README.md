@@ -27,7 +27,8 @@ I created this repository because one day I was organizing my hard drive and fou
   * [SC2104](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/main/Year2/SC2104) - Sensors, Interfacing & Digital Control
   * [SC2107](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/main/Year2/SC2107) - Microprocessor System Design and Development
   * [SC2103](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/SC2103/Year2/SC2103) - Digital System Design
-
+  * [SC2005](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/tree/main/Year2/SC2005) - Operating Systems
+  * [SC2008](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/tree/main/Year2/SC2008) - Computer Networks
 ## What you won't find in this repository :heavy_minus_sign:
 Your exam answers, obviously. :sweat_smile:
 Also, this repository is not a replacement for your own effort. You should still study hard and do your own research. This repository is providing you with some resources that you can refer to when you struggles.
