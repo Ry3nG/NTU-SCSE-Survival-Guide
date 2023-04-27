@@ -1,0 +1,15 @@
+﻿Tick,ready list,current thread,printf message,Context switch
+10,empty,main,n/a,n/a
+20,child1,main,n/a,n/a
+30,child1 child2,main,thread 0 looped 0 times,child1
+40,child2 main,child1,thread 1 looped 0 times,child2
+50,main child1,child2,thread 2 looped 0 times,main
+60,child1 child2,main,thread 0 looped 0 times,child1
+70,child2 main,child1,thread 1 looped 1 times,child2
+80,main child1,child2,thread 2 looped 1 times,main
+90,child1 child2,main,thread 0 looped 2 times,child1
+100,child2 main,child1,thread 1 looped 2 times,child2
+110,main child1,child2,thread 2 looped 2 times,main
+120,child1 child2,main,n/a,child1
+130,child2,child1,n/a,child2
+140,empty,child2,n/a,n/a

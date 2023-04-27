@@ -1,0 +1,17 @@
+﻿Tick,ready list,current thread,Timer Interrupt triggered,Thread completion,Context switch
+40,child1 child2 child3,main,timer interrupt scheduled at 80,n/a,child1
+50,child2 child3 main,child1,n/a,thread 1 completed,child2
+60,child3 main,child2,n/a,thread 2 completed, child3
+70,main,child3,n/a,thread 3 completed, main
+80,n/a,main,timer interrupt scheduled at 120,n/a,n/a
+120,child4 child5 child6 ,main,timer interrupt scheduled at 160,n/a,child4
+130,child5 child6 main,child4,n/a,thread 4 completed,child5
+140,child6 main,child5,n/a,thread 5 completed,child6
+150,main,child6,n/a,thread 6 completed,main
+160,n/a,main,timer interrupt scheduled at 200,n/a,n/a
+200,child7 child8 child9 ,main,timer interrupt scheduled at 240,n/a,child7
+210,child8 child9 main,child7,n/a,thread 7 completed,child8
+220,child9 main,child8,n/a,thread 8 completed,child9
+230,main,child9,n/a,thread 9 completed,main
+240,n/a,main,timer interrupt scheduled at 280,n/a,n/a
+250,n/a, main, n/a, thread 0 completed, n/a
