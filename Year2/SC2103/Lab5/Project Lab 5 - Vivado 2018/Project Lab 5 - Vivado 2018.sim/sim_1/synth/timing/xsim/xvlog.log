@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/SC2103/SC2103/Lab5/Project Lab 5 - Vivado 2018/Project Lab 5 - Vivado 2018.sim/sim_1/synth/timing/xsim/uP16_top_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module BRAM_SINGLE_MACRO_viv_
+INFO: [VRFC 10-311] analyzing module BRAM_SINGLE_MACRO__parameterized0
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-311] analyzing module D_mem
+INFO: [VRFC 10-311] analyzing module EX_Mem_PR
+INFO: [VRFC 10-311] analyzing module EX_stage
+INFO: [VRFC 10-311] analyzing module ID_EX_PR
+INFO: [VRFC 10-311] analyzing module ID_stage
+INFO: [VRFC 10-311] analyzing module IF_ID_PR
+INFO: [VRFC 10-311] analyzing module IF_stage
+INFO: [VRFC 10-311] analyzing module I_mem
+INFO: [VRFC 10-311] analyzing module Mem_WB_PR
+INFO: [VRFC 10-311] analyzing module Mem_stage
+INFO: [VRFC 10-311] analyzing module Reg_File
+INFO: [VRFC 10-311] analyzing module uP16_top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/SC2103/SC2103/Lab5/uP16_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uP16_top_tb

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Mar 21 10:39:31 2023
+# Process ID: 6676
+# Current directory: C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/Project Lab4.runs/impl_1
+# Command line: vivado.exe -log uP16_BASYS3_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source uP16_BASYS3_top.tcl -notrace
+# Log file: C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/Project Lab4.runs/impl_1/uP16_BASYS3_top.vdi
+# Journal file: C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/Project Lab4.runs/impl_1\vivado.jou
+# Running On: ZephyrusM16, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 25431 MB
+#-----------------------------------------------------------
+source uP16_BASYS3_top.tcl -notrace

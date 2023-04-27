@@ -1,0 +1,12 @@
+
+{ 
+    crc :  2544219643826942443  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 995d8e5917a94db696d95a478356b86f --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot uP16_top_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.uP16_top_tb xil_defaultlib.glbl" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/uP16_top_tb_time_synth/xsimk.exe\"   \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_0.win64.obj\" \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_1.win64.obj\" \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_2.win64.obj\" \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_3.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

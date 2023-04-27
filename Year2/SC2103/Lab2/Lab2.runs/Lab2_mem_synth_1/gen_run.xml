@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="Lab2_mem_synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1676342098">
+  <File Type="PA-TCL" Name="Lab2_mem.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Lab2_mem_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Lab2_mem_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Lab2_mem.vds"/>
+  <File Type="RDS-UTIL" Name="Lab2_mem_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Lab2_mem_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Lab2_mem.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Lab2_mem_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Lab2_mem_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Lab2_mem">
+    <File Path="$PSRCDIR/sources_1/ip/Lab2_mem/Lab2_mem.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="Lab2_mem"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Lab2_mem">
+    <File Path="$PSRCDIR/sources_1/ip/Lab2_mem/Lab2_mem.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="Lab2_mem"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

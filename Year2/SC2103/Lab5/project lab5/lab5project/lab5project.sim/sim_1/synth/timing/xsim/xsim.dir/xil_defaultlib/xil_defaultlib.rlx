@@ -1,0 +1,6 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+E:/SC2103/SC2103/Lab5/project lab5/lab5project/lab5project.sim/sim_1/synth/timing/xsim/uP16_top_tb_time_synth.v,1680532062,verilog,,E:/SC2103/SC2103/Lab5/uP16_top_tb.v,,ALU;Control;D_mem;EX_Mem_PR;EX_stage;ID_EX_PR;ID_stage;IF_ID_PR;IF_stage;I_mem;Mem_stage;Reg_File;glbl;uP16_top;xil_internal_svlib_BRAM_SINGLE_MACRO;xil_internal_svlib_BRAM_SINGLE_MACRO__parameterized0,,,,,,,,
+E:/SC2103/SC2103/Lab5/uP16_top_tb.v,1611303800,verilog,,,,uP16_top_tb,,,,,,,,

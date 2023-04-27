@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+F:/SC2103/Lab2/Lab2.sim/sim_1/behav/xsim/glbl.v,1544155482,verilog,,,,glbl,,,,,,,,
+F:/SC2103/Lab2/Lab2.srcs/sources_1/ip/Lab2_mem/sim/Lab2_mem.v,1676342098,verilog,,F:/SC2103/Lab2/Lab2.srcs/sources_1/new/Lab2_top.v,,Lab2_mem,,,,,,,,
+F:/SC2103/Lab2/Lab2.srcs/sources_1/new/Lab2_top.v,1676347304,verilog,,F:/SC2103/Lab2/Lab2.srcs/sources_1/new/Lab2_top_tb.v,,Lab2_top,,,,,,,,
+F:/SC2103/Lab2/Lab2.srcs/sources_1/new/Lab2_top_tb.v,1676343180,verilog,,,,Lab2_top_tb,,,,,,,,

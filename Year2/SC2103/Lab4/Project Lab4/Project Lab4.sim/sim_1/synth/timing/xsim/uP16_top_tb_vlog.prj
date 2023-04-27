@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"uP16_top_tb_time_synth.v" \
+"../../../../../../uP16_top_tb.v" \
+
+# Do not sort compile order
+nosort
