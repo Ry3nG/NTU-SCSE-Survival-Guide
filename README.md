@@ -29,6 +29,8 @@ I created this repository because one day I was organizing my hard drive and fou
   * [SC2103](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/blob/SC2103/Year2/SC2103) - Digital System Design
   * [SC2005](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/tree/main/Year2/SC2005) - Operating Systems
   * [SC2008](https://github.com/Ry3nG/NTU-SCSE-Survival-Guide/tree/main/Year2/SC2008) - Computer Networks
+* SC2079 - Multi-Disciplinary Design Project
+  * I was responsible for the STM and hardware part for the MDP project, the related files can be found [here](https://github.com/Ry3nG/STM32-Robot-Hardware-Control)
 ## What you won't find in this repository :heavy_minus_sign:
 Your exam answers, obviously. :sweat_smile:
 Also, this repository is not a replacement for your own effort. You should still study hard and do your own research. This repository is providing you with some resources that you can refer to when you struggles.
