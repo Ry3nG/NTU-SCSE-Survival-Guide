@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/SC2103/Lab2/Lab2.srcs/sources_1/ip/Lab2_mem/sim/Lab2_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab2_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/SC2103/Lab2/Lab2.srcs/sources_1/new/Lab2_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab2_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/SC2103/Lab2/Lab2.srcs/sources_1/new/Lab2_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Lab2_top_tb

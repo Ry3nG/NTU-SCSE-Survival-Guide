@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+F:/SC2103/Lab3/Lab3.sim/sim_1/behav/xsim/glbl.v,1665704904,verilog,,,,glbl,,,,,,,,
+F:/SC2103/Lab3/Lab3_downloads/AM_top.v,1678158422,verilog,,F:/SC2103/Lab3/Lab3_downloads/multA.v,,AM_top,,,,,,,,
+F:/SC2103/Lab3/Lab3_downloads/AM_top_tb.v,1611119622,verilog,,,,AM_top_tb,,,,,,,,
+F:/SC2103/Lab3/Lab3_downloads/array_mult_6bit.v,1568260606,verilog,,F:/SC2103/Lab3/Lab3_downloads/AM_top_tb.v,,array_mult_6bit,,,,,,,,
+F:/SC2103/Lab3/Lab3_downloads/multA.v,1611043724,verilog,,F:/SC2103/Lab3/Lab3_downloads/multB.v,,multA,,,,,,,,
+F:/SC2103/Lab3/Lab3_downloads/multB.v,1611043808,verilog,,F:/SC2103/Lab3/Lab3_downloads/AM_top_tb.v,,multB,,,,,,,,

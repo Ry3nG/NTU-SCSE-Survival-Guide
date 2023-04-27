@@ -1,0 +1,12 @@
+
+{ 
+    crc :  3169241242605521546  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot uP16_top_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.uP16_top_tb xil_defaultlib.glbl" , 
+    buildDate : "Oct 14 2022" , 
+    buildTime : "05:20:55" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2022.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/uP16_top_tb_time_synth/xsimk.exe\"   \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_0.win64.obj\" \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_1.win64.obj\" \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_2.win64.obj\" \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_3.win64.obj\" \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_4.win64.obj\" \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_5.win64.obj\" \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_6.win64.obj\" \"xsim.dir/uP16_top_tb_time_synth/obj/xsim_7.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2022.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

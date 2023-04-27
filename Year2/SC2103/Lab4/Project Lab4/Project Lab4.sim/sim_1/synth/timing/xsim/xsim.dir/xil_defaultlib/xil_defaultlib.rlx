@@ -1,0 +1,6 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/Project Lab4.sim/sim_1/synth/timing/xsim/uP16_top_tb_time_synth.v,1679365844,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/uP16_top_tb.v,,ALU;Control;D_mem;EX_Mem_PR;EX_stage;ID_EX_PR;ID_stage;IF_ID_PR;IF_stage;I_mem;Mem_stage;Reg_File;glbl;uP16_top;xil_internal_svlib_BRAM_SINGLE_MACRO;xil_internal_svlib_BRAM_SINGLE_MACRO__parameterized0,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/uP16_top_tb.v,1679325309,verilog,,,,uP16_top_tb,,,,,,,,

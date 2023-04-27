@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab3_downloads/AM_top.v" \
+"../../../../Lab3_downloads/multA.v" \
+"../../../../Lab3_downloads/multB.v" \
+"../../../../Lab3_downloads/AM_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

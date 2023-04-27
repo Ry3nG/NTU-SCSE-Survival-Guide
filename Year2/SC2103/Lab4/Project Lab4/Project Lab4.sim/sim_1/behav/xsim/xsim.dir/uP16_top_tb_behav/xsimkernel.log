@@ -1,0 +1,7 @@
+Running: xsim.dir/uP16_top_tb_behav/xsimk.exe -simmode gui -wdb uP16_top_tb_behav.wdb -simrunnum 0 -socket 4664
+Design successfully loaded
+Design Loading Memory Usage: 8048 KB (Peak: 8048 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 9016 KB (Peak: 9016 KB)
+Simulation CPU Usage: 0 ms

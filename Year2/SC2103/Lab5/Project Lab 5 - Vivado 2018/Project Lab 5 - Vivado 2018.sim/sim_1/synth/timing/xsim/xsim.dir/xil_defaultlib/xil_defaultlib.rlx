@@ -1,0 +1,6 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+F:/SC2103/SC2103/Lab5/Project Lab 5 - Vivado 2018/Project Lab 5 - Vivado 2018.sim/sim_1/synth/timing/xsim/uP16_top_tb_time_synth.v,1680576384,verilog,,F:/SC2103/SC2103/Lab5/uP16_top_tb.v,,ALU;BRAM_SINGLE_MACRO__parameterized0;BRAM_SINGLE_MACRO_viv_;Control;D_mem;EX_Mem_PR;EX_stage;ID_EX_PR;ID_stage;IF_ID_PR;IF_stage;I_mem;Mem_WB_PR;Mem_stage;Reg_File;glbl;uP16_top,,,,,,,,
+F:/SC2103/SC2103/Lab5/uP16_top_tb.v,1611303800,verilog,,,,uP16_top_tb,,,,,,,,

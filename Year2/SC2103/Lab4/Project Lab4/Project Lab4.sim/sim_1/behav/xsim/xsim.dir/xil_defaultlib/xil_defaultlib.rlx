@@ -1,0 +1,16 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/Project Lab4.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/Data_mem.v,1679364449,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/EX_Mem_PR.v,,D_mem,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/EX_Mem_PR.v,1679364449,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/EX_stage.v,,EX_Mem_PR,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/EX_stage.v,1679364449,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/ID_EX_PR.v,,ALU;EX_stage,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/ID_EX_PR.v,1679364449,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/ID_stage.v,,ID_EX_PR,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/ID_stage.v,1679364449,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/IF_ID_PR.v,,Control;ID_stage;Reg_File,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/IF_ID_PR.v,1679364450,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/IF_stage.v,,IF_ID_PR,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/IF_stage.v,1679364450,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/Instruct_mem.v,,IF_stage,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/Instruct_mem.v,1679364786,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/Mem_stage.v,,I_mem,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/Mem_stage.v,1679364450,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/uP16_top.v,,Mem_stage,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/Project Lab4/up16_src/uP16_top.v,1679364450,verilog,,C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/uP16_top_tb.v,,uP16_top,,,,,,,,
+C:/Users/Nomla/Desktop/Y2S2/SC2103/SC2103/Lab4/uP16_top_tb.v,1679325309,verilog,,,,uP16_top_tb,,,,,,,,

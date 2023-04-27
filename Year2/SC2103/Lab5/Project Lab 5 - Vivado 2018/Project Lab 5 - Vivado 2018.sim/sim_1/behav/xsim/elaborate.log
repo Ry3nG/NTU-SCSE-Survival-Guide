@@ -1,0 +1,12 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 995d8e5917a94db696d95a478356b86f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uP16_top_tb_behav xil_defaultlib.uP16_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'DOADO' [/wrk/2018.3/continuous/2018_12_06_2405991/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:1494]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'DOPADOP' [/wrk/2018.3/continuous/2018_12_06_2405991/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:1496]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'DIADI' [/wrk/2018.3/continuous/2018_12_06_2405991/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:1502]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'DIPADIP' [/wrk/2018.3/continuous/2018_12_06_2405991/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:1504]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'WEA' [/wrk/2018.3/continuous/2018_12_06_2405991/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:1514]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
