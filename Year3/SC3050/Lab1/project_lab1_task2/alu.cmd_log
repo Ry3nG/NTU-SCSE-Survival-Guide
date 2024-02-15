@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-cpg196-3 alu.ngc alu.ngd  
+map -intstyle ise -p xc6slx4-cpg196-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o alu_map.ncd alu.ngd alu.pcf 
+par -w -intstyle ise -ol high -mt off alu_map.ncd alu.ncd alu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml alu.twx alu.ncd -o alu.twr alu.pcf 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
+xst -intstyle ise -ifn "F:/SC3050/Lab1/project_lab1_task2/alu.xst" -ofn "F:/SC3050/Lab1/project_lab1_task2/alu.syr" 
